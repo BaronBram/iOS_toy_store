@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4DA6E885-257F-4FCE-B7C9-21052FC34766"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91A92064-89D4-45AE-9320-7D83082FFB04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "labProject/AddToysViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "menuAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5442E153-9864-4A06-821E-0A4622145133"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "labProject/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "RegisterViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5442E153-9864-4A06-821E-0A4622145133 - 546c23a11403eeee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "labProject.RegisterViewController.emailTF.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "labProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Downloads/labProject%202/labProject/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "5442E153-9864-4A06-821E-0A4622145133 - 8f7d27e52d11c2da"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "labProject.RegisterViewController.emailTF.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "labProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Downloads/labProject%202/labProject/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "5442E153-9864-4A06-821E-0A4622145133 - 907b938138c00beb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "labProject.RegisterViewController.emailTF.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "labProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Downloads/labProject%202/labProject/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5442E153-9864-4A06-821E-0A4622145133 - f3909ecd98e5ade5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "labProject.RegisterViewController.emailTF.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "labProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Downloads/labProject%202/labProject/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5442E153-9864-4A06-821E-0A4622145133 - 8b693ea82d1c804e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "labProject.RegisterViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; labProject.RegisterViewController"
+                  moduleName = "labProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Downloads/labProject%202/labProject/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "5442E153-9864-4A06-821E-0A4622145133 - 749f3cac6d2b0774"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "labProject.RegisterViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;labProject.RegisterViewController&gt;"
+                  moduleName = "labProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prk/Downloads/labProject%202/labProject/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

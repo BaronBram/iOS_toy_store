@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22G74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Toys" representedClassName="Toys" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="toys" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Transaction" inverseName="toysdata" inverseEntity="Transaction"/>
+    </entity>
+    <entity name="Transaction" representedClassName="Transaction" syncable="YES" codeGenerationType="class">
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="toysdata" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Toys" inverseName="toys" inverseEntity="Toys"/>
+        <relationship name="userdata" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="user" inverseEntity="Users"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="isAdmin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="userEmail" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Transaction" inverseName="userdata" inverseEntity="Transaction"/>
+    </entity>
+</model>
